@@ -1,0 +1,26 @@
+@keyframes color-change {
+    0% {
+        border-color: green;
+    }
+    50% {
+        border-color: lightsalmon;
+    }
+    100% {
+        border-color: blue;
+    }
+}
+
+@keyframes slide-down {
+    0% {
+        opacity: 0; // invisible
+        transform: translateY(-50px) // starts 10px higher
+    }
+    60% {
+        opacity: 0.9;
+        transform: translateY(15px);
+    }
+    100% {
+        opacity: 1; // visible
+        transform: translateY(0); // moves down 10px (proper place)
+    }
+}
